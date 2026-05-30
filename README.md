@@ -1,29 +1,18 @@
-# Assignment 1 Summary – Data Exploration and Cleaning Using Pandas
+# Celebal Technologies Virtual Internship
 
-## Objective
+## Task 1: Data Exploration and Cleaning using Pandas
 
-The objective of this assignment was to perform basic data exploration and data cleaning operations on the provided dataset using Python and the Pandas library.
+### Files Included
+- Basic_Data_Exploration_and_Cleaning.ipynb
+- final_dataset.csv
+- summary.md
 
-## Tasks Performed
-
-1. Imported the Pandas library and loaded the dataset into a DataFrame.
-2. Explored the dataset using:
-
-   * `head()`
-   * `tail()`
-   * `info()`
-   * `describe()`
-   * `shape`
-3. Identified missing values using `isnull().sum()`.
-4. Handled missing values in relevant columns.
-5. Selected specific columns for analysis.
-6. Filtered records based on conditions such as product ratings and price values.
-7. Converted the `final_price` column from string format to numeric format by removing currency symbols and commas.
-8. Converted the `initial_price` column from string format to numeric format.
-9. Checked for duplicate records and verified that no duplicates were present.
-10. Created a derived column named `price` using available pricing information.
-11. Saved the cleaned dataset as `final_dataset.csv`.
-
-## Outcome
-
-The dataset was successfully explored, cleaned, transformed, and saved for further analysis. The assignment demonstrated the use of fundamental Pandas operations for data preprocessing and preparation.
+### Operations Performed
+- Loaded dataset using Pandas
+- Explored dataset structure
+- Handled missing values
+- Converted price columns to numeric format
+- Filtered and selected records
+- Removed duplicates
+- Created a derived column
+- Saved cleaned dataset
